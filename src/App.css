@@ -1,16 +1,26 @@
+:root {
+  /****colors*****/
+  --blue-dark: #1f2833;
+  --teal-light: #66fcf1;
+  --teal-dark: #45a29e;
+  --white: #c5c6c7;
+  --black: #0b0c10;
+
+}
+
+body {
+  background-color: var(--black);
+}
+
+p {
+  color: var(--white);
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: 'Times New Roman', Times, serif;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .App-header {
@@ -24,15 +34,40 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/***** Home ******/
+
+#home-title {
+  color: var(--teal-light);
+  font-size: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-title {
+  color: var(--teal-light);
+  font-size: 50px;
 }
+
+#home-bio {
+  color: var(--white);
+}
+
+#bio-pic {
+  border-radius: 500px;
+}
+
+/****** About *****/
+#about-bio {
+  color: var(--white);
+}
+
+#about-me-section {
+  background-size:cover;
+  height: 500px;
+  opacity: 50%;
+}
+
+/****** Experience *****/
+
+
+
+/***** Projects ******/
+
