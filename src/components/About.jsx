@@ -1,27 +1,14 @@
-import {useState, useEffect} from 'react';
-import AboutCard from './AboutCard';
+
 
 function About() {
-    const [cards, setCards] = useState([])
-
-    console.log(cards)
-
-    const allCards = cards.map((card, i) => {
-        return (
-            <>
-                <AboutCard key={i} info={card} />
-            </>
-        )
-    })
 
     return (
         <>
             <header>
                 <h1 className="section-title">About Me</h1>
+                <p>Creative, motivated, and dedicated hard worker with over 10 years of experience working in Information Technology, from working the help desk, assisting users with front end issues, to managing and maintaining back end servers and phone systems as well as troubleshooting network issues.</p>
+                <p id="home-bio">Flatiron School graduate of the Software Engineering course with experience in Rails, Ruby, React, and Javascript.</p>    
             </header>
-            <div id="about-me-section">
-                {allCards}
-            </div>
         </>
         
     )

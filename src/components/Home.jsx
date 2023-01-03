@@ -12,9 +12,6 @@ function Home() {
                     alt="Me happy as can be!"
                 />
             </header>
-            <body>
-                <p id="home-bio">Flatiron School graduate of the Software Engineering course.  Creative, motivated, and dedicated hard worker with over 10 years of experience working in Information Technology, from working the help desk, assisting users with front end issues, to managing and maintaining back end servers and phone systems as well as troubleshooting network issues.</p>
-            </body>
         </>
     )
 }
