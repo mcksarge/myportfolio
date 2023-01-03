@@ -13,7 +13,7 @@ function Home() {
                 />
             </header>
             <body>
-                <p id="home-bio">Creative, motivated, and dedicated hard worker with over 10 years of experience working in Information Technology, from working the help desk, assisting users with front end issues, to managing and maintaining back end servers and phone systems as well as troubleshooting network issues. Currently studying web development, with experience in JavaScript, Ruby, Rails, and React.</p>
+                <p id="home-bio">Flatiron School graduate of the Software Engineering course.  Creative, motivated, and dedicated hard worker with over 10 years of experience working in Information Technology, from working the help desk, assisting users with front end issues, to managing and maintaining back end servers and phone systems as well as troubleshooting network issues.</p>
             </body>
         </>
     )
